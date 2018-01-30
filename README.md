@@ -1,6 +1,6 @@
-# Solar token
+# BlockChain token
 
-This project was created during the hackathon at the [Blockchain summer school in Copenhagen](http://blockchainschool.eu/) on 16-17 August and presented on 18 August 2017 ([video](https://www.youtube.com/watch?v=ZDm7V16NNpo)). The idea was to create a P2P marketplace for energy trading.
+This project was created during the EnergyBlock project - funded by Climate Kic. The idea was to create a P2P prototype marketplace for energy trading, mimicking M2M transactions.
 
 This repository only implements a simple demo, where residents of a building can vote on whether to approve the installation of the solar panel on their roof. The scenario of the demo is the following:
 
@@ -13,7 +13,7 @@ The token functionality is not yet implemented.
 
 ## Usage
 
-Addresses are hard-coded (it's a hackathon, after all). To try the demo, you have to initialize both testrpc (`testrpc -m "twelve words seed"`) and Metamask ("Import existing DEN") with the same seed (see `seed.txt`). 
+Addresses are hard-coded. To try the demo, you have to initialize both testrpc (`testrpc -m "twelve words seed"`) and Metamask ("Import existing DEN") with the same seed (see `seed.txt`). 
 
 1. First run `truffle compile`, then run `truffle migrate` to deploy the contracts onto your network of choice (default "development").
 1. Then run `npm run dev` to build the app and serve it on http://localhost:8080
