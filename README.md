@@ -2,14 +2,9 @@
 
 This project was created during the EnergyBlock project - funded by Climate Kic. The idea was to create a P2P prototype marketplace for energy trading, mimicking M2M transactions.
 
-This repository only implements a simple demo, where residents of a building can vote on whether to approve the installation of the solar panel on their roof. The scenario of the demo is the following:
+This repository only implements a simple demo, where residents of a building can vote on whether to approve the consumption of the solar panel on their roof. 
 
-1. The owner of the building wants to hire a solar panel company to install solar panels, but needs support of the residents.
-2. The owner allocates funds in a smart contract initiales the voting.
-3. Owners vote. 
-4. Only after more than 50% residents approve the project, the solar panel company can withdraw the funds from the smart contract.
-
-The token functionality is not yet implemented.
+The token functionality is not yet implemented in real life, but smart meters are connected.
 
 ## Usage
 
